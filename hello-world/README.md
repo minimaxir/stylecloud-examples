@@ -1,6 +1,6 @@
 # hello-world
 
-An extremely basic example to demonstrate stylecloud's functionality. For apples-to-apples comparison, it creates a word cloud from the US Constituion as the [world_cloud hello world example](https://github.com/amueller/word_cloud/blob/master/examples/simple.py) does.
+An extremely basic example to demonstrate stylecloud's functionality. For apples-to-apples comparison, it creates a word cloud from the US Constitution as the [world_cloud hello world example](https://github.com/amueller/word_cloud/blob/master/examples/simple.py) does.
 
 ## Base stylecloud: text input only
 
@@ -51,7 +51,7 @@ stylecloud --file_path constitution.txt --icon_name 'fas fa-dog' --palette color
 
 Specifying a gradient direction (`horizontal` or `vertical`) will cause the words to behave as if affected by a color gradient.
 
-It is strongly recommended you use the nondefault palette if adding a gradient.
+It is strongly recommended you use a nondefault palette (i.e. a non-qualitative palette) if adding a gradient.
 
 Python:
 
