@@ -1,6 +1,8 @@
 # stylecloud-examples
 
-Examples of stylictic word clouds generated via the stylecloud Python package, with both the Python code to reproduce and code to gather the text from the original data source.
+Examples of stylistic word clouds generated via the stylecloud Python package, with both the Python code to reproduce and code to gather the text from the original data source:
+
+* `hello-world`: A simple example to demo the base functionality of stylecloud (also seen in its README)
 
 ## Maintainer/Creator
 
