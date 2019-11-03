@@ -4,9 +4,9 @@
 
 Examples of stylistic word clouds generated via the [stylecloud](https://github.com/minimaxir/stylecloud) Python package, with both the Python code to reproduce and code to gather the text from the original data source where applicable:
 
-* `hello-world`: A simple example to demo the base functionality of stylecloud (also seen in its README).
-* `twitter`: A stylecloud generated from Twitter data, obtained via `twine`.
-* `reddit`: A stylecloud generated from Reddit data, aggregated into a CSV.
+* `hello-world`: A simple example to demo the base functionality of stylecloud (also lightly adapted in its README).
+* `twitter`: A stylecloud generated from [Twitter](https://twitter.com/) data, obtained via `twint`.
+* `reddit`: A stylecloud generated from [Reddit](https://www.reddit.com) data in [BigQuery](https://cloud.google.com/bigquery/), aggregated into a CSV.
 
 ## Maintainer/Creator
 
