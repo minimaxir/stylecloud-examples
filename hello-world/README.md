@@ -71,3 +71,38 @@ CLI:
 stylecloud --file_path constitution.txt --icon_name 'fas fa-dog' --palette colorbrewer.diverging.Spectral_11 --background_color black --gradient horizontal
 ```
 
+## Use Specific Colors For Text
+
+![](stylecloud4.png)
+
+You can manually specify the color(s) of the text with the `colors` parameter, overriding the palettes. This can be useful for specific branding, or high-contrast visualizations.
+
+```python
+import stylecloud
+
+stylecloud.gen_stylecloud(file_path='constitution.txt',
+                          colors='white',
+                          background_color='#1A1A1A')
+```
+
+```sh
+stylecloud --file_path constitution.txt --colors white --background_color '#1A1A1A'
+```
+
+### Advanced Specific Colors
+
+![](stylecloud5.png)
+
+Colors adapted from the [Flat UI Colors](https://flatuicolors.com/palette/defo) palette:
+
+```python
+import stylecloud
+
+stylecloud.gen_stylecloud(file_path='constitution.txt',
+                          colors=['#ecf0f1', '#3498db', '#e74c3c'],
+                          background_color='#1A1A1A')
+```
+
+```sh
+stylecloud --file_path constitution.txt --colors "['#ecf0f1', '#3498db', '#e74c3c']" --background_color '#1A1A1A'
+```
