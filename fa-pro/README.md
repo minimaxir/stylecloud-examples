@@ -40,7 +40,7 @@ import stylecloud
 
 stylecloud.gen_stylecloud(file_path='constitution.txt',
                           icon_name='fas fa-tree-large',
-                          colors=['#27ae60', '#c0392b', '#bdc3c7']
+                          colors=['#27ae60', '#c0392b', '#bdc3c7'],
                           background_color='white',
                           pro_icon_path='fa-solid-900.ttf',
                           pro_css_path='fontawesome.min.css')
@@ -67,7 +67,7 @@ stylecloud.gen_stylecloud(file_path='constitution.txt',
                           icon_name='fal fa-meh-rolling-eyes',
                           palette='colorbrewer.sequential.YlOrRd_9',
                           background_color='black',
-                          gradient='vertical'
+                          gradient='vertical',
                           pro_icon_path='fa-light-300.ttf',
                           pro_css_path='fontawesome.min.css')
 ```
@@ -91,7 +91,7 @@ stylecloud.gen_stylecloud(file_path='constitution.txt',
                           icon_name='fal fa-meh-rolling-eyes',
                           palette='colorbrewer.sequential.YlOrRd_9',
                           background_color='black',
-                          gradient='vertical'
+                          gradient='vertical',
                           pro_icon_path='fa-light-300.ttf',
                           pro_css_path='fontawesome.min.css',
                           invert_mask=True)
