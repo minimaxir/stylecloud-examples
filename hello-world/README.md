@@ -106,3 +106,44 @@ stylecloud.gen_stylecloud(file_path='constitution.txt',
 ```sh
 stylecloud --file_path constitution.txt --colors "['#ecf0f1', '#3498db', '#e74c3c']" --background_color '#1A1A1A'
 ```
+
+### Nonsquare Sizes
+
+![](stylecloud6.png)
+
+You can specify a nonsquare size if you want the stylecloud to be more minimalist. (or make a good desktop wallpaper)
+
+```python
+import stylecloud
+
+stylecloud.gen_stylecloud(file_path='constitution.txt',
+                          icon_name='fas fa-globe',
+                          colors='white'
+                          background_color='#1A1A1A',
+                          size=(768, 512))
+```
+
+```sh
+stylecloud --file_path constitution.txt --icon_name 'fas fa-globe' --colors 'white' --background_color '#1A1A1A' --size '(768, 512)'
+```
+
+## Invert Mask
+
+![](stylecloud7.png)
+
+You can invert the mask such that the text occupies all the area *except* the icon mask. Works great for thinner icons and nonsquare sizes!
+
+```python
+import stylecloud
+
+stylecloud.gen_stylecloud(file_path='constitution.txt',
+                          icon_name='fas fa-globe',
+                          colors='white'
+                          background_color='#1A1A1A',
+                          size=(768, 512),
+                          invert_mask=True)
+```
+
+```sh
+stylecloud --file_path constitution.txt --icon_name 'fas fa-globe' --colors 'white' --background_color '#1A1A1A' --size '(768, 512)' --invert_mask True
+```
